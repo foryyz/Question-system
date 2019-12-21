@@ -75,6 +75,7 @@ class Question():
                 print('\t'+self.mistake.rstrip())
         else:
             print("Congratulations! You got all the questions right!\n")
+
     def show_grade(self):
         """打印总分并退出"""
         print("\nOK! This game is over. And your grade is :" + str(self.grade))
